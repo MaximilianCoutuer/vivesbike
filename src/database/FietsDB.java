@@ -42,6 +42,7 @@ public class FietsDB implements InterfaceFietsDB {
         catch(SQLException e) {
             throw new DBException("SQL-exception in toevoegenFiets - connection" + e);
         }
+        return 0; //TODO
     }
 
     @Override
@@ -50,8 +51,26 @@ public class FietsDB implements InterfaceFietsDB {
     }
 
     @Override
-    public void wijzigenOpmerkingFiets(Integer regnr, String opmerking)  {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void wijzigenOpmerkingFiets(Integer regnr, String opmerking) throws DBException  {
+        
+        if(regnr == null) {
+            //throw new ApplicationException();
+        }
+        
+        try(Connection conn = ConnectionManager.getConnection();)
+        {
+            try (PreparedStatement stmt = conn.prepareStatement("UPDATE Messages SET opmerkingen = ? WHERE registratienummer = ?", Statement.NO_GENERATED_KEYS)) {
+                stmt.setString(1, opmerking);
+                stmt.setString(2, regnr.toString());
+                stmt.execute();
+            }
+            catch(SQLException e) {
+                throw new DBException("SQL-exception in toevoegenFiets - statement" + e);
+            }
+        }
+        catch(SQLException e) {
+            throw new DBException("SQL-exception in toevoegenFiets - connection" + e);
+        }
     }
 
     @Override
