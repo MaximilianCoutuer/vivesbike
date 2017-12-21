@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Maximilian/NetBeansProjects/VivesBike/vivesbike/src/database/FietsDB.java</file>
-            <file>file:/Users/Maximilian/NetBeansProjects/VivesBike/vivesbike/src/database/LidDB.java</file>
-            <file>file:/Users/Maximilian/NetBeansProjects/VivesBike/vivesbike/src/databag/Fiets.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/InterfaceRitDB.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/RitDB.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/datatype/Rijksregisternummer.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/test.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/databag/Lid.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/InterfaceFietsDB.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/InterfaceLidDB.java</file>
+            <file>file:/C:/Users/gwij/Documents/projecten/Java/Programming/VIVES_bike/VIVESbike/src/database/LidDB.java</file>
         </group>
     </open-files>
 </project-private>

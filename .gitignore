@@ -23,3 +23,7 @@ hs_err_pid*
 
 # Database properties
 DB.properties
+
+# Netbeans config
+nbproject
+nbproject\private\private.xml
