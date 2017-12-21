@@ -20,7 +20,7 @@ public interface InterfaceLidDB {
 
     void uitschrijvenLid(String rr) throws Exception;
 
-    Lid zoekLid(String rijksregisternummer) throws Exception;
+    Lid zoekLid(String rr) throws Exception;
 
     public ArrayList<Lid> zoekAlleLeden() throws Exception;
 
