@@ -26,4 +26,6 @@ DB.properties
 
 # Netbeans config
 nbproject
-nbproject\private\private.xml
+
+# Building
+build.xml
