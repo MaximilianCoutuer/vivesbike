@@ -29,3 +29,8 @@ nbproject
 
 # Building
 build.xml
+
+# Vivesbike
+build/*
+!build/classes/
+dist/
